@@ -1,5 +1,4 @@
 <?php
-echo '<pre>';
 function isPal($str)
 {
     $str = mb_strtolower($str);
@@ -17,5 +16,8 @@ function isPal($str)
     }
 }
 
+
+//Задаем строку
 $str = 'Sum summus musafgasg';
+//Узнаем
 isPal($str);
